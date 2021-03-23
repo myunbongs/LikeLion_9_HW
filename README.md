@@ -51,18 +51,19 @@ $ git push origin <브랜치명>
 
 브랜치 클릭 후 new pull request 도 가능 (아래 사진 참고!!)
 
-![Untitled 3](https://user-images.githubusercontent.com/62318430/112156786-eba5ee00-8c29-11eb-8df7-2cc39e2305d4.png)
+![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
+
 
 
 ### 3. 내용 작성 후 Create pull request 클릭!
 
-![Untitled 4](https://user-images.githubusercontent.com/62318430/112156875-ff515480-8c29-11eb-814c-97bc31a77a8a.png)
+![Untitled 3](https://user-images.githubusercontent.com/62318430/112156786-eba5ee00-8c29-11eb-8df7-2cc39e2305d4.png)
 
 
 ### 완료 🎉
 
 
-![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
+![Untitled 4](https://user-images.githubusercontent.com/62318430/112156875-ff515480-8c29-11eb-814c-97bc31a77a8a.png)
 
 ---
 
