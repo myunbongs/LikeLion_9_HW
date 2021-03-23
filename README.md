@@ -23,7 +23,8 @@ $ git push origin <브랜치명>
 
 origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
 
-![%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled.png](%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/62318430/112156593-ba2d2280-8c29-11eb-99c3-dc8baddfebd3.png)
+
 
 클릭 후 자신의 브랜치가 잘 추가 되었는지 확인 ❤
 
@@ -43,19 +44,19 @@ $ git push origin <브랜치명>
 
 ### 2. 레포 접속하여 Pull request 클릭
 
-![%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%201.png](%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%201.png)
+![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
 
 브랜치 클릭 후 new pull request 도 가능 (아래 사진 참고!!)
 
-![%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%202.png](%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%202.png)
+![Untitled 3](https://user-images.githubusercontent.com/62318430/112156786-eba5ee00-8c29-11eb-8df7-2cc39e2305d4.png)
 
 ### 3. 내용 작성 후 Create pull request 클릭!
 
-![%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%203.png](%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%203.png)
+![Untitled 4](https://user-images.githubusercontent.com/62318430/112156875-ff515480-8c29-11eb-814c-97bc31a77a8a.png)
 
 ### 완료 🎉
 
-![%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%204.png](%E1%84%86%E1%85%A5%E1%86%BA%E1%84%8C%E1%85%A2%E1%86%BC%E1%84%8B%E1%85%B5%20%E1%84%89%E1%85%A1%E1%84%8C%E1%85%A1%E1%84%8E%E1%85%A5%E1%84%85%E1%85%A5%E1%86%B7%204e65e9ac7e264b36a9cf7e0b41df10c2/Untitled%204.png)
+![Untitled](https://user-images.githubusercontent.com/62318430/112156918-0aa48000-8c2a-11eb-97e2-389029f76028.png)
 
 ---
 
