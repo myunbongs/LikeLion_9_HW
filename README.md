@@ -23,7 +23,7 @@ $ git push origin <브랜치명>
 
 origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
 
-![Untitled 1](https://user-images.githubusercontent.com/62318430/112156593-ba2d2280-8c29-11eb-99c3-dc8baddfebd3.png)
+![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
 
 
 클릭 후 자신의 브랜치가 잘 추가 되었는지 확인 ❤
@@ -46,7 +46,8 @@ $ git push origin <브랜치명>
 
 ### 2. 레포 접속하여 Pull request 클릭
 
-![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
+![Untitled 1](https://user-images.githubusercontent.com/62318430/112156593-ba2d2280-8c29-11eb-99c3-dc8baddfebd3.png)
+
 
 브랜치 클릭 후 new pull request 도 가능 (아래 사진 참고!!)
 
