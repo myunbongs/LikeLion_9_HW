@@ -23,7 +23,7 @@ $ git push origin <브랜치명>
 
 origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
 
-![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
+![Untitled](https://user-images.githubusercontent.com/62318430/112156918-0aa48000-8c2a-11eb-97e2-389029f76028.png)
 
 
 클릭 후 자신의 브랜치가 잘 추가 되었는지 확인 ❤
@@ -61,7 +61,8 @@ $ git push origin <브랜치명>
 
 ### 완료 🎉
 
-![Untitled](https://user-images.githubusercontent.com/62318430/112156918-0aa48000-8c2a-11eb-97e2-389029f76028.png)
+
+![Untitled 2](https://user-images.githubusercontent.com/62318430/112156717-db8e0e80-8c29-11eb-9d5a-fd16e9e0862b.png)
 
 ---
 
