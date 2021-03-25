@@ -76,10 +76,10 @@ $ git push origin <브랜치명>
 
 ## 다른 팀 레포 놀러가기 🏄‍♂️
 
-**경은팀**
+[경은팀](https://github.com/GyeongEun-Kim/Likelion-9th-HW)
 
-**어진팀**
+[어진팀](https://github.com/mingmeng030/Likelion-9th-homework)
 
-**수진팀**
+[수진팀](https://github.com/GyeongEun-Kim/Likelion-9th-HW)
 
 [현빈팀](https://github.com/myunbongs/LikeLion_9_HW)
