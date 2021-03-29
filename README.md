@@ -87,6 +87,6 @@ $ git push origin <브랜치명>
 
 [어진팀](https://github.com/mingmeng030/Likelion-9th-homework)
 
-[수진팀](https://github.com/GyeongEun-Kim/Likelion-9th-HW)
+[수진팀](https://github.com/sooziini/likelion9th-assignment)
 
 [현빈팀](https://github.com/myunbongs/LikeLion_9_HW)
