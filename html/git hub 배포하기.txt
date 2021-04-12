@@ -1,0 +1,5 @@
+git hub
+
+git hub는 3+1 기능을 한다. 
+code 저장 기능, undo 기능, 협업 기능, web hosting(우리가 만든 웹 페이지를 실제로 배포해주는 것) 기능
+이름.github.io

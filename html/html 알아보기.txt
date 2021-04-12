@@ -1,0 +1,77 @@
+<HTML>
+HTML =  Hyper Text Mark up Language
+Hyper Text = Link
+Mark up Language = 컴퓨터가 알아들을 수 있는 언어
+
+html은 정보를 마킹하는 역할
+css는 꾸미는 역할
+
+문서의 일부를 설명해 주기 위한 html 
+html 코드 구성:
+1. html로 작성된 문서라는것을 알려주는 태그
+lang = "ko" : 이건 한국어로 작성된 html 문서라는것을 의미
+
+2. 직접적으로 화면에 들어나진 않지만, 이 문서를 설명해주는 내용의 태그
+ex)문서의 title, 인코딩 방식 등
+head : 화면에 직접적으로 나오진 않지만 문서를 한마디로 표현할 수 있는 내용을 담고 있는다.
+
+3. 직접적으로 화면에 등장, 문서에서 보이는 태그
+body : 화면에 보이는 태그
+
+<!DOCTYPE html>
+<html lang = "ko">
+	<head>
+
+	</head>
+	<body>
+
+	</body>
+</html>
+
+form태그: 사용자로부터 입력값 받아들이는 태그
+속성) 사용자로부터 입력받은 값을 어디로 명시해주세요 => action
+<form action = "전송받을 대상">
+ 여기에 적힌 내용들을 전송해준다. 
+</form>
+
+ 예시)
+<form action="전송받을 대상">
+        아이디: <input type="text" name="myid">
+        비밀번호: <input type="password" name="mypw">
+       <input type="submit">
+    </form>
+
+ 아이디 input type 은 text
+ 비밀번호 input type은 password
+
+*클라이언트와 서버는 통신할 때에는 url 관련해서 정보를 주고 받는다.
+
+br은 줄 바꿈
+
+img태그
+<img src="이미지 이름">
+height는 높이 조정, width는 너비 조정
+단 이미지 파일은 짜고 있는 코드와 같은 파일 안에 있어야 한다.
+
+textarea 태그
+<textarea name="" id="" cols="30" rows="10"></textarea>
+메모, 긴 글을 쓸 때 사용한다.
+
+select 태그
+           <select>
+                <option value="goodday">좋은날</option>
+                <option value="sadday">슬픈날</option>
+                <option value="soso">그저그런날</option>
+            </select>
+select 태그를 사용하여 내가 선택할 옵션들을 추가한다.
+옵션들 추가하는 기능은 option 태그이다. 
+여기서 value는 서버가 알아듣는 값.
+좋은날은 우리 사용자가 알아듣는 말인 것이다.
+
+list 태그
+순서 있는 리스트 단축키 ol>li*n(n: 내가 원하는 개수)
+순서 없는 리스트 단축키 ul>li*n(n: 내가 원하는 개수)
+
+a태그
+<a href="1.html">유년기</a>
+링크 거는 태그이다. 유년기를 누르면 1.html로 이동한다.
