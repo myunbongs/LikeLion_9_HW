@@ -1,0 +1,23 @@
+cho "# sumin.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sumin0308/sumin.github.io.git
+git push -u origin main
+
+git을 관리하는 명령어들이다.
+echo "# sumin.github.io" >> README.md 
+이 코드는 README.md  파일을 만들고, 그 안에 post project 내용을 입력하라는 소리이다.\
+
+git init
+관리할 프로젝트를 지정하기 위해 사용. 
+현재 디렉토리를 새로운 git 저장소로 초기화한다.
+마스터 브렌치가 자동으로 생긴다.
+
+git add README.md
+sataging area에 올려준다. 파일을 저장하고, 기록하는 기능이다.
+파일을 저장하다. => 1. 저장할 파일을 선택한다. 2. 선택한 파일을 저장한다.
+
+git commit -m "저장할 메시지"
+git add로 staging area에 올린 파일들을 저장해주는 명령어다.
