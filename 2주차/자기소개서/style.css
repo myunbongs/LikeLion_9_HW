@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header-box {
+    height: 700px;
+    color: #ebebeb;
+    background-color: #212121;
+}
+
+.header-line {
+    width: 95%;
+    border-bottom: 1px solid #ebebeb;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.img-profile {
+    height: 480px;
+}
+
+.top-box {
+    display: flex;
+    margin-top: 220px;
+    margin-left: 120px;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-des {
+    display: block;
+    margin-left: 120px;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 32px;
+}
+
+.contact-box {
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+ul {
+    font-weight: normal;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.contact {
+    display: inline-flex;
+}
+
+.sns-icon {
+    font-size: 30px;
+    text-decoration: none;
+    color: #ebebeb;
+    margin-right: 20px;
+}
+
+.sns-list {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* main */
+main {
+    height: 100%;
+    background-color: #FBFCFC;
+}
+
+.card-box {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.card-title {
+    display: inline-flex;
+}
+
+.edu-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.major {
+    font-size: 14px;
+}
+
+.company-text {
+    float: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.year-text {
+    float: right;
+    margin: 0;
+}
+
+.job-text {
+    font-size: 14px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.float-wrap {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+/* footer */
+.footer {
+    height: 50px;
+    background-color: #FBFCFC;
+}
+
+.footer-line {
+    width: 95%;
+    border-top: 1px solid #212121;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    text-align: center;
+}
