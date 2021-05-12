@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+a:link {
+     text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: #212121;
+}
+
+
 /* header */
 .header-box {
     height: 700px;
@@ -61,6 +75,11 @@ ul {
     padding-left: 10px;
 }
 
+.tistory-icon {
+    padding-bottom: 6px;
+    width: 28px;
+}
+
 .contact {
     display: inline-flex;
 }
@@ -75,6 +94,11 @@ ul {
 .sns-list {
     display: flex;
     margin-top: 10px;
+}
+
+.sns-icon:hover { 
+    text-decoration: none;
+    color: #ebebeb;
 }
 
 /* main */
@@ -97,6 +121,11 @@ main {
 
 .card-title {
     display: inline-flex;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #212121;
 }
 
 .edu-name {
