@@ -11,11 +11,11 @@
 </head>
 <body>
     <h1>Write Your Blog</h1>
-    <form action="" method="post">
+    <form action="create" method="post">
         {%csrf_token%}
         <p>제목: <input type="text" name="title"></p>
         <p>작성자: <input type="text" name="writer"></p>
-        <p>본문: <textarea name="body" id="body" cols="60" rows="30"></textarea></p>
+        본문: <textarea name="body" id="body" cols="60" rows="30"></textarea>
         <button type="submit">제출</button>
     </form>
 </body>

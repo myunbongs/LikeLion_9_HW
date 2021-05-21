@@ -14,3 +14,9 @@ def detail(request, blog_id):
 
 def new(request):
     return render(request, 'new.html')
+
+def create(request):
+    new_blog = Blog()
+    request.POST['title']
+    request.POST['writer']
+    request.POST['body']
