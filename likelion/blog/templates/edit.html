@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit</title>
-    <style>
-        body{text-align: center;}
-    </style>
-</head>
-<body>
-    <h1>Update Your Blog</h1>
+{% extends 'base.html' %}
+{% block content %}
+
+   <h1>Update Your Blog</h1>
     <form action="{% url 'update' blog.id %}" method="post">
         {%csrf_token%}
         <p>제목: <input type="text" name="title" value="{{blog.title}}"></p>
@@ -18,5 +9,6 @@
         본문: <textarea name="body" id="body" cols="60" rows="30" >{{blog.body}}</textarea>
         <button type="submit">제출</button>
     </form>
-</body>
-</html>
+
+{% endblock %}
+    
