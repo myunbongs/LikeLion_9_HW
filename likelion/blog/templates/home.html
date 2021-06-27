@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLOG</title>
-    <style>
-        body{text-align: center;}
-    </style>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
+
+    {% if user.is_authenticated %}
+    안녕하세요, {{user.nickname}}님!
+    {% endif %}
     <h1>Igoo's Blog</h1>
     <div class="container">
+        {% if user.is_authenticated %}
         <div>
             <a href="{%url 'new'%}">write blog</a>
         </div>
+        <a href="?search=true&writer={{user.nickname}}">내가 쓴 글</a>
+        {% endif %}
         <div>
             {% for blog in blogs %}
                 <hr>
@@ -26,5 +23,18 @@
             <br>
         </div>
     </div>
-</body>
-</html>
+
+    <div>
+        {% if blogs.has_previous %}
+        <a href="?page=1">처음</a>
+        <a href="?page={{blogs.previous_page_number}}">이전</a>
+        {% endif %}
+        <span>{{blogs.number}}</span>
+        <span>of</span>
+        <span>{{blogs.paginator.num_pages}}</span>
+        {% if blogs.has_next %}
+        <a href="?page={{blogs.next_page_number}}">다음</a>
+        <a href="?page={{blogs.paginator.num_pages}}">마지막</a>
+        {% endif %}
+    </div>
+{% endblock %}

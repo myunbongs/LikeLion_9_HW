@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New</title>
-    <style>
-        body{text-align: center;}
-    </style>
-</head>
-<body>
-    <h1>Write Your Blog</h1>
-    <form action="{% url 'create' %}" method="post">
+{% extends 'base.html' %}
+{% block content %}
+
+   <h1>Write Your Blog</h1>
+    <form action="{% url 'create' %}" method="post" enctype="multipart/form-data">
         {%csrf_token%}
-        <p>제목: <input type="text" name="title"></p>
-        <p>작성자: <input type="text" name="writer"></p>
-        본문: <textarea name="body" id="body" cols="60" rows="30"></textarea>
+        {{form.as_p}}
         <button type="submit">제출</button>
     </form>
-</body>
-</html>
+
+{% endblock %}
